@@ -67,7 +67,7 @@ const SignUp = () => {
   return (
     <View style={styles.containerr}>
       <View style={styles.nicetextView}>
-        <Text style={styles.nicetext}>Sign Up</Text>
+        <Text style={styles.nicetext}>Sign Up.</Text>
       </View>
       <ImageBackground
         source={require('../assets/o.png')}
