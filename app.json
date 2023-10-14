@@ -1,15 +1,17 @@
 {
   "expo": {
-    "name": "project",
-    "slug": "project",
-    "version": "1.0.0",
+    "name": "MemoPad",
+    "slug": "MemoPad",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,13 +20,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode":3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hikmat97.Notepad"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dff38b07-2f43-43c2-8e06-13b05eb9d1b8"
+      }
     }
   }
 }
